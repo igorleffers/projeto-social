@@ -25,9 +25,18 @@ section#celular{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /* Se essa linha não for adicionada, é o canto superior esquerdo do bloco que fica no centro da tela */
-    width: 311px;
-    height: 627px;
+    width: 350px;
+    height: 630px;
     background-image: url('../imagens/frame-android.png');
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+iframe#tela{
+    position: relative;
+    border-radius: 3px;
+    top: 59px;
+    left: 9px;
+    width: 285.5px;
+    height: 508px;
 }

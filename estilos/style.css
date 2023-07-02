@@ -27,16 +27,34 @@ section#celular{
     transform: translate(-50%, -50%); /* Se essa linha não for adicionada, é o canto superior esquerdo do bloco que fica no centro da tela */
     width: 350px;
     height: 630px;
-    background-image: url('../imagens/frame-android.png');
+    background-image: url('../imagens/frame-android-branco.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 iframe#tela{
     position: relative;
-    border-radius: 3px;
-    top: 59px;
-    left: 9px;
-    width: 285.5px;
-    height: 508px;
+    top: 71px;
+    left: 31px;
+    width: 266.5px;
+    height: 461.5px;
+}
+
+section#icones{
+    text-align: right;
+}
+
+section#icones img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+
+section#icones img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.628);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.550);
+    transition: transform .5s;
 }
